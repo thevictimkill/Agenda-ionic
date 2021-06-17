@@ -1,0 +1,63 @@
+<!--
+  Generated template for the PaginacPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-toolbar>
+    <ion-title style="background-color: #A3B4A2">Agregar</ion-title>
+    <ion-buttons start>
+      <button (click)="goHome()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content style="background-color: #A3B4A2" padding>
+ <ion-list>
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="nombre" required type="text" placeholder="Nombre">
+     </ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="telefofono" required type="text" placeholder="Telefono">
+     </ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="correo" required type="text" placeholder="Correo">
+     </ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="facebook" required type="text" placeholder="Facebook">
+     </ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="instagram" required type="text" placeholder="Instagram">
+     </ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-icon name="person"></ion-icon>
+     <ion-input [(ngModel)]="twitter" required type="text" placeholder="Twitter">
+     </ion-input>
+   </ion-item>
+
+
+ </ion-list>
+  <button (click)="agregar()"ion-button full>Agregar</button>
+</ion-content>

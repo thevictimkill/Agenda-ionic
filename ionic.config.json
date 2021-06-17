@@ -1,0 +1,15 @@
+{
+  "name": "agenda",
+  "integrations": {},
+  "type": "ionic-angular",
+  "proxies":[
+    {
+      "path":"/contactos",
+      "proxyUrl": "http://127.0.0.1:5000/contactos"
+    },
+    {
+      "path":"/agregar",
+      "proxyUrl": "http://127.0.0.1:5000/agregar"
+    }
+  ]
+}
